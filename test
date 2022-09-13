@@ -1,0 +1,4 @@
+currency = input("What is Bitcoin price today?: ")
+amount = input("How much $ do you have?: ")
+result = int(amount)/int(currency)
+print ("You can buy", result)
